@@ -1,0 +1,463 @@
+[Program Block] simulation Started at time=0
+[Testcase] run started at time=0
+[apb_environment] build started at time=0
+[apb_environment] build ended at time=0
+[apb_environment] run started at time=0
+[apb_Generator] run started at time=0
+[apb_Generator] Sending RESET apb_trans to driver at time=0
+[apb_driver] run started at time=0
+[apb_driver] Received  RESET apb_trans 1 from generator at time=0
+[apb_driver] Applying reset to APB at time=0
+[apb_iMonitor] run started at time=0 
+[apb_oMonitor] run started at time=0 
+[apb_Scoreboard] run started at time=0
+[Coverage] run started at time=0
+[apb_Generator] Sent STIMULUS apb_trans 1 to driver at time=0
+[apb_driver] APB out of Reset at time=70
+[apb_driver] Done with RESET apb_trans 1 from generator at time=70
+[apb_driver] Received  STIMULUS apb_trans 2 from generator at time=70
+[apb_Generator] Sent STIMULUS apb_trans 2 to driver at time=70
+[apb_driver] APB write operation started with addr=2 data=471 at time=90
+[apb_driver] APB write operation ended with addr=2 data=471 at time=150
+[apb_driver] APB read operation started with addr=2 at time=150
+APB WRITE addr=0x2 data=0x1d7
+[apb_iMonitor] Sent apb_trans 1 to scoreboard at time=150 
+[Coverage] Coverage=25.195312 
+[apb_oMonitor] Sent apb_trans 1 to scoreboard at time=210 
+APB READ addr=0x2 data=0x1d7
+[apb_Scoreboard] apb_trans 1 received at time=210
+[apb_Scoreboard] apb_trans 1 Matched 
+[apb_driver] APB read operation ended with addr=2 at time=230
+[apb_driver] Done with STIMULUS apb_trans 2 from generator at time=230
+[apb_driver] Received  STIMULUS apb_trans 3 from generator at time=230
+[apb_Generator] Sent STIMULUS apb_trans 3 to driver at time=230
+[apb_driver] APB write operation started with addr=3 data=24 at time=250
+[apb_driver] APB write operation ended with addr=3 data=24 at time=310
+[apb_driver] APB read operation started with addr=3 at time=310
+APB WRITE addr=0x3 data=0x18
+[apb_iMonitor] Sent apb_trans 2 to scoreboard at time=310 
+[Coverage] Coverage=25.390625 
+[apb_oMonitor] Sent apb_trans 2 to scoreboard at time=370 
+APB READ addr=0x3 data=0x18
+[apb_Scoreboard] apb_trans 2 received at time=370
+[apb_Scoreboard] apb_trans 2 Matched 
+[apb_driver] APB read operation ended with addr=3 at time=390
+[apb_driver] Done with STIMULUS apb_trans 3 from generator at time=390
+[apb_driver] Received  STIMULUS apb_trans 4 from generator at time=390
+[apb_Generator] Sent STIMULUS apb_trans 4 to driver at time=390
+[apb_driver] APB write operation started with addr=6 data=365 at time=410
+[apb_driver] APB write operation ended with addr=6 data=365 at time=470
+[apb_driver] APB read operation started with addr=6 at time=470
+APB WRITE addr=0x6 data=0x16d
+[apb_iMonitor] Sent apb_trans 3 to scoreboard at time=470 
+[Coverage] Coverage=25.585938 
+[apb_oMonitor] Sent apb_trans 3 to scoreboard at time=530 
+APB READ addr=0x6 data=0x16d
+[apb_Scoreboard] apb_trans 3 received at time=530
+[apb_Scoreboard] apb_trans 3 Matched 
+[apb_driver] APB read operation ended with addr=6 at time=550
+[apb_driver] Done with STIMULUS apb_trans 4 from generator at time=550
+[apb_driver] Received  STIMULUS apb_trans 5 from generator at time=550
+[apb_Generator] Sent STIMULUS apb_trans 5 to driver at time=550
+[apb_driver] APB write operation started with addr=7 data=252 at time=570
+[apb_driver] APB write operation ended with addr=7 data=252 at time=630
+[apb_driver] APB read operation started with addr=7 at time=630
+APB WRITE addr=0x7 data=0xfc
+[apb_iMonitor] Sent apb_trans 4 to scoreboard at time=630 
+[Coverage] Coverage=25.781250 
+[apb_oMonitor] Sent apb_trans 4 to scoreboard at time=690 
+APB READ addr=0x7 data=0xfc
+[apb_Scoreboard] apb_trans 4 received at time=690
+[apb_Scoreboard] apb_trans 4 Matched 
+[apb_driver] APB read operation ended with addr=7 at time=710
+[apb_driver] Done with STIMULUS apb_trans 5 from generator at time=710
+[apb_driver] Received  STIMULUS apb_trans 6 from generator at time=710
+[apb_Generator] Sent STIMULUS apb_trans 6 to driver at time=710
+[apb_driver] APB write operation started with addr=2 data=217 at time=730
+[apb_driver] APB write operation ended with addr=2 data=217 at time=790
+[apb_driver] APB read operation started with addr=2 at time=790
+APB WRITE addr=0x2 data=0xd9
+[apb_iMonitor] Sent apb_trans 5 to scoreboard at time=790 
+[Coverage] Coverage=25.781250 
+[apb_oMonitor] Sent apb_trans 5 to scoreboard at time=850 
+APB READ addr=0x2 data=0xd9
+[apb_Scoreboard] apb_trans 5 received at time=850
+[apb_Scoreboard] apb_trans 5 Matched 
+[apb_driver] APB read operation ended with addr=2 at time=870
+[apb_driver] Done with STIMULUS apb_trans 6 from generator at time=870
+[apb_driver] Received  STIMULUS apb_trans 7 from generator at time=870
+[apb_Generator] Sent STIMULUS apb_trans 7 to driver at time=870
+[apb_driver] APB write operation started with addr=2 data=307 at time=890
+[apb_driver] APB write operation ended with addr=2 data=307 at time=950
+[apb_driver] APB read operation started with addr=2 at time=950
+APB WRITE addr=0x2 data=0x133
+[apb_iMonitor] Sent apb_trans 6 to scoreboard at time=950 
+[Coverage] Coverage=25.781250 
+[apb_oMonitor] Sent apb_trans 6 to scoreboard at time=1010 
+APB READ addr=0x2 data=0x133
+[apb_Scoreboard] apb_trans 6 received at time=1010
+[apb_Scoreboard] apb_trans 6 Matched 
+[apb_driver] APB read operation ended with addr=2 at time=1030
+[apb_driver] Done with STIMULUS apb_trans 7 from generator at time=1030
+[apb_driver] Received  STIMULUS apb_trans 8 from generator at time=1030
+[apb_Generator] Sent STIMULUS apb_trans 8 to driver at time=1030
+[apb_driver] APB write operation started with addr=9 data=478 at time=1050
+[apb_driver] APB write operation ended with addr=9 data=478 at time=1110
+[apb_driver] APB read operation started with addr=9 at time=1110
+APB WRITE addr=0x9 data=0x1de
+[apb_iMonitor] Sent apb_trans 7 to scoreboard at time=1110 
+[Coverage] Coverage=25.976562 
+[apb_oMonitor] Sent apb_trans 7 to scoreboard at time=1170 
+APB READ addr=0x9 data=0x1de
+[apb_Scoreboard] apb_trans 7 received at time=1170
+[apb_Scoreboard] apb_trans 7 Matched 
+[apb_driver] APB read operation ended with addr=9 at time=1190
+[apb_driver] Done with STIMULUS apb_trans 8 from generator at time=1190
+[apb_driver] Received  STIMULUS apb_trans 9 from generator at time=1190
+[apb_Generator] Sent STIMULUS apb_trans 9 to driver at time=1190
+[apb_driver] APB write operation started with addr=3 data=78 at time=1210
+[apb_driver] APB write operation ended with addr=3 data=78 at time=1270
+[apb_driver] APB read operation started with addr=3 at time=1270
+APB WRITE addr=0x3 data=0x4e
+[apb_iMonitor] Sent apb_trans 8 to scoreboard at time=1270 
+[Coverage] Coverage=25.976562 
+[apb_oMonitor] Sent apb_trans 8 to scoreboard at time=1330 
+APB READ addr=0x3 data=0x4e
+[apb_Scoreboard] apb_trans 8 received at time=1330
+[apb_Scoreboard] apb_trans 8 Matched 
+[apb_driver] APB read operation ended with addr=3 at time=1350
+[apb_driver] Done with STIMULUS apb_trans 9 from generator at time=1350
+[apb_driver] Received  STIMULUS apb_trans 10 from generator at time=1350
+[apb_Generator] Sent STIMULUS apb_trans 10 to driver at time=1350
+[apb_driver] APB write operation started with addr=6 data=355 at time=1370
+[apb_driver] APB write operation ended with addr=6 data=355 at time=1430
+[apb_driver] APB read operation started with addr=6 at time=1430
+APB WRITE addr=0x6 data=0x163
+[apb_iMonitor] Sent apb_trans 9 to scoreboard at time=1430 
+[Coverage] Coverage=25.976562 
+[apb_oMonitor] Sent apb_trans 9 to scoreboard at time=1490 
+APB READ addr=0x6 data=0x163
+[apb_Scoreboard] apb_trans 9 received at time=1490
+[apb_Scoreboard] apb_trans 9 Matched 
+[apb_driver] APB read operation ended with addr=6 at time=1510
+[apb_driver] Done with STIMULUS apb_trans 10 from generator at time=1510
+[apb_driver] Received  STIMULUS apb_trans 11 from generator at time=1510
+[apb_Generator] Sent STIMULUS apb_trans 11 to driver at time=1510
+[apb_driver] APB write operation started with addr=3 data=254 at time=1530
+[apb_driver] APB write operation ended with addr=3 data=254 at time=1590
+[apb_driver] APB read operation started with addr=3 at time=1590
+APB WRITE addr=0x3 data=0xfe
+[apb_iMonitor] Sent apb_trans 10 to scoreboard at time=1590 
+[Coverage] Coverage=25.976562 
+[apb_oMonitor] Sent apb_trans 10 to scoreboard at time=1650 
+APB READ addr=0x3 data=0xfe
+[apb_Scoreboard] apb_trans 10 received at time=1650
+[apb_Scoreboard] apb_trans 10 Matched 
+[apb_driver] APB read operation ended with addr=3 at time=1670
+[apb_driver] Done with STIMULUS apb_trans 11 from generator at time=1670
+[apb_driver] Received  STIMULUS apb_trans 12 from generator at time=1670
+[apb_Generator] Sent STIMULUS apb_trans 12 to driver at time=1670
+[apb_driver] APB write operation started with addr=1 data=160 at time=1690
+[apb_driver] APB write operation ended with addr=1 data=160 at time=1750
+[apb_driver] APB read operation started with addr=1 at time=1750
+APB WRITE addr=0x1 data=0xa0
+[apb_iMonitor] Sent apb_trans 11 to scoreboard at time=1750 
+[Coverage] Coverage=26.171875 
+[apb_oMonitor] Sent apb_trans 11 to scoreboard at time=1810 
+APB READ addr=0x1 data=0xa0
+[apb_Scoreboard] apb_trans 11 received at time=1810
+[apb_Scoreboard] apb_trans 11 Matched 
+[apb_driver] APB read operation ended with addr=1 at time=1830
+[apb_driver] Done with STIMULUS apb_trans 12 from generator at time=1830
+[apb_driver] Received  STIMULUS apb_trans 13 from generator at time=1830
+[apb_Generator] Sent STIMULUS apb_trans 13 to driver at time=1830
+[apb_driver] APB write operation started with addr=1 data=25 at time=1850
+[apb_driver] APB write operation ended with addr=1 data=25 at time=1910
+[apb_driver] APB read operation started with addr=1 at time=1910
+APB WRITE addr=0x1 data=0x19
+[apb_iMonitor] Sent apb_trans 12 to scoreboard at time=1910 
+[Coverage] Coverage=26.171875 
+[apb_oMonitor] Sent apb_trans 12 to scoreboard at time=1970 
+APB READ addr=0x1 data=0x19
+[apb_Scoreboard] apb_trans 12 received at time=1970
+[apb_Scoreboard] apb_trans 12 Matched 
+[apb_driver] APB read operation ended with addr=1 at time=1990
+[apb_driver] Done with STIMULUS apb_trans 13 from generator at time=1990
+[apb_driver] Received  STIMULUS apb_trans 14 from generator at time=1990
+[apb_Generator] Sent STIMULUS apb_trans 14 to driver at time=1990
+[apb_driver] APB write operation started with addr=2 data=496 at time=2010
+[apb_driver] APB write operation ended with addr=2 data=496 at time=2070
+[apb_driver] APB read operation started with addr=2 at time=2070
+APB WRITE addr=0x2 data=0x1f0
+[apb_iMonitor] Sent apb_trans 13 to scoreboard at time=2070 
+[Coverage] Coverage=26.171875 
+[apb_oMonitor] Sent apb_trans 13 to scoreboard at time=2130 
+APB READ addr=0x2 data=0x1f0
+[apb_Scoreboard] apb_trans 13 received at time=2130
+[apb_Scoreboard] apb_trans 13 Matched 
+[apb_driver] APB read operation ended with addr=2 at time=2150
+[apb_driver] Done with STIMULUS apb_trans 14 from generator at time=2150
+[apb_driver] Received  STIMULUS apb_trans 15 from generator at time=2150
+[apb_Generator] Sent STIMULUS apb_trans 15 to driver at time=2150
+[apb_driver] APB write operation started with addr=2 data=31 at time=2170
+[apb_driver] APB write operation ended with addr=2 data=31 at time=2230
+[apb_driver] APB read operation started with addr=2 at time=2230
+APB WRITE addr=0x2 data=0x1f
+[apb_iMonitor] Sent apb_trans 14 to scoreboard at time=2230 
+[Coverage] Coverage=26.171875 
+[apb_oMonitor] Sent apb_trans 14 to scoreboard at time=2290 
+APB READ addr=0x2 data=0x1f
+[apb_Scoreboard] apb_trans 14 received at time=2290
+[apb_Scoreboard] apb_trans 14 Matched 
+[apb_driver] APB read operation ended with addr=2 at time=2310
+[apb_driver] Done with STIMULUS apb_trans 15 from generator at time=2310
+[apb_driver] Received  STIMULUS apb_trans 16 from generator at time=2310
+[apb_Generator] Sent STIMULUS apb_trans 16 to driver at time=2310
+[apb_driver] APB write operation started with addr=8 data=84 at time=2330
+[apb_driver] APB write operation ended with addr=8 data=84 at time=2390
+[apb_driver] APB read operation started with addr=8 at time=2390
+APB WRITE addr=0x8 data=0x54
+[apb_iMonitor] Sent apb_trans 15 to scoreboard at time=2390 
+[Coverage] Coverage=26.367188 
+[apb_oMonitor] Sent apb_trans 15 to scoreboard at time=2450 
+APB READ addr=0x8 data=0x54
+[apb_Scoreboard] apb_trans 15 received at time=2450
+[apb_Scoreboard] apb_trans 15 Matched 
+[apb_driver] APB read operation ended with addr=8 at time=2470
+[apb_driver] Done with STIMULUS apb_trans 16 from generator at time=2470
+[apb_driver] Received  STIMULUS apb_trans 17 from generator at time=2470
+[apb_Generator] Sent STIMULUS apb_trans 17 to driver at time=2470
+[apb_driver] APB write operation started with addr=8 data=184 at time=2490
+[apb_driver] APB write operation ended with addr=8 data=184 at time=2550
+[apb_driver] APB read operation started with addr=8 at time=2550
+APB WRITE addr=0x8 data=0xb8
+[apb_iMonitor] Sent apb_trans 16 to scoreboard at time=2550 
+[Coverage] Coverage=26.367188 
+[apb_oMonitor] Sent apb_trans 16 to scoreboard at time=2610 
+APB READ addr=0x8 data=0xb8
+[apb_Scoreboard] apb_trans 16 received at time=2610
+[apb_Scoreboard] apb_trans 16 Matched 
+[apb_driver] APB read operation ended with addr=8 at time=2630
+[apb_driver] Done with STIMULUS apb_trans 17 from generator at time=2630
+[apb_driver] Received  STIMULUS apb_trans 18 from generator at time=2630
+[apb_Generator] Sent STIMULUS apb_trans 18 to driver at time=2630
+[apb_driver] APB write operation started with addr=7 data=338 at time=2650
+[apb_driver] APB write operation ended with addr=7 data=338 at time=2710
+[apb_driver] APB read operation started with addr=7 at time=2710
+APB WRITE addr=0x7 data=0x152
+[apb_iMonitor] Sent apb_trans 17 to scoreboard at time=2710 
+[Coverage] Coverage=26.367188 
+[apb_oMonitor] Sent apb_trans 17 to scoreboard at time=2770 
+APB READ addr=0x7 data=0x152
+[apb_Scoreboard] apb_trans 17 received at time=2770
+[apb_Scoreboard] apb_trans 17 Matched 
+[apb_driver] APB read operation ended with addr=7 at time=2790
+[apb_driver] Done with STIMULUS apb_trans 18 from generator at time=2790
+[apb_driver] Received  STIMULUS apb_trans 19 from generator at time=2790
+[apb_Generator] Sent STIMULUS apb_trans 19 to driver at time=2790
+[apb_driver] APB write operation started with addr=8 data=200 at time=2810
+[apb_driver] APB write operation ended with addr=8 data=200 at time=2870
+[apb_driver] APB read operation started with addr=8 at time=2870
+APB WRITE addr=0x8 data=0xc8
+[apb_iMonitor] Sent apb_trans 18 to scoreboard at time=2870 
+[Coverage] Coverage=26.367188 
+[apb_oMonitor] Sent apb_trans 18 to scoreboard at time=2930 
+APB READ addr=0x8 data=0xc8
+[apb_Scoreboard] apb_trans 18 received at time=2930
+[apb_Scoreboard] apb_trans 18 Matched 
+[apb_driver] APB read operation ended with addr=8 at time=2950
+[apb_driver] Done with STIMULUS apb_trans 19 from generator at time=2950
+[apb_driver] Received  STIMULUS apb_trans 20 from generator at time=2950
+[apb_Generator] Sent STIMULUS apb_trans 20 to driver at time=2950
+[apb_driver] APB write operation started with addr=7 data=490 at time=2970
+[apb_driver] APB write operation ended with addr=7 data=490 at time=3030
+[apb_driver] APB read operation started with addr=7 at time=3030
+APB WRITE addr=0x7 data=0x1ea
+[apb_iMonitor] Sent apb_trans 19 to scoreboard at time=3030 
+[Coverage] Coverage=26.367188 
+[apb_oMonitor] Sent apb_trans 19 to scoreboard at time=3090 
+APB READ addr=0x7 data=0x1ea
+[apb_Scoreboard] apb_trans 19 received at time=3090
+[apb_Scoreboard] apb_trans 19 Matched 
+[apb_driver] APB read operation ended with addr=7 at time=3110
+[apb_driver] Done with STIMULUS apb_trans 20 from generator at time=3110
+[apb_driver] Received  STIMULUS apb_trans 21 from generator at time=3110
+[apb_Generator] Sent STIMULUS apb_trans 21 to driver at time=3110
+[apb_driver] APB write operation started with addr=9 data=494 at time=3130
+[apb_driver] APB write operation ended with addr=9 data=494 at time=3190
+[apb_driver] APB read operation started with addr=9 at time=3190
+APB WRITE addr=0x9 data=0x1ee
+[apb_iMonitor] Sent apb_trans 20 to scoreboard at time=3190 
+[Coverage] Coverage=26.367188 
+[apb_oMonitor] Sent apb_trans 20 to scoreboard at time=3250 
+APB READ addr=0x9 data=0x1ee
+[apb_Scoreboard] apb_trans 20 received at time=3250
+[apb_Scoreboard] apb_trans 20 Matched 
+[apb_driver] APB read operation ended with addr=9 at time=3270
+[apb_driver] Done with STIMULUS apb_trans 21 from generator at time=3270
+[apb_driver] Received  STIMULUS apb_trans 22 from generator at time=3270
+[apb_Generator] Sent STIMULUS apb_trans 22 to driver at time=3270
+[apb_driver] APB write operation started with addr=2 data=468 at time=3290
+[apb_driver] APB write operation ended with addr=2 data=468 at time=3350
+[apb_driver] APB read operation started with addr=2 at time=3350
+APB WRITE addr=0x2 data=0x1d4
+[apb_iMonitor] Sent apb_trans 21 to scoreboard at time=3350 
+[Coverage] Coverage=26.367188 
+[apb_oMonitor] Sent apb_trans 21 to scoreboard at time=3410 
+APB READ addr=0x2 data=0x1d4
+[apb_Scoreboard] apb_trans 21 received at time=3410
+[apb_Scoreboard] apb_trans 21 Matched 
+[apb_driver] APB read operation ended with addr=2 at time=3430
+[apb_driver] Done with STIMULUS apb_trans 22 from generator at time=3430
+[apb_driver] Received  STIMULUS apb_trans 23 from generator at time=3430
+[apb_Generator] Sent STIMULUS apb_trans 23 to driver at time=3430
+[apb_driver] APB write operation started with addr=7 data=148 at time=3450
+[apb_driver] APB write operation ended with addr=7 data=148 at time=3510
+[apb_driver] APB read operation started with addr=7 at time=3510
+APB WRITE addr=0x7 data=0x94
+[apb_iMonitor] Sent apb_trans 22 to scoreboard at time=3510 
+[Coverage] Coverage=26.367188 
+[apb_oMonitor] Sent apb_trans 22 to scoreboard at time=3570 
+APB READ addr=0x7 data=0x94
+[apb_Scoreboard] apb_trans 22 received at time=3570
+[apb_Scoreboard] apb_trans 22 Matched 
+[apb_driver] APB read operation ended with addr=7 at time=3590
+[apb_driver] Done with STIMULUS apb_trans 23 from generator at time=3590
+[apb_driver] Received  STIMULUS apb_trans 24 from generator at time=3590
+[apb_Generator] Sent STIMULUS apb_trans 24 to driver at time=3590
+[apb_driver] APB write operation started with addr=6 data=242 at time=3610
+[apb_driver] APB write operation ended with addr=6 data=242 at time=3670
+[apb_driver] APB read operation started with addr=6 at time=3670
+APB WRITE addr=0x6 data=0xf2
+[apb_iMonitor] Sent apb_trans 23 to scoreboard at time=3670 
+[Coverage] Coverage=26.367188 
+[apb_oMonitor] Sent apb_trans 23 to scoreboard at time=3730 
+APB READ addr=0x6 data=0xf2
+[apb_Scoreboard] apb_trans 23 received at time=3730
+[apb_Scoreboard] apb_trans 23 Matched 
+[apb_driver] APB read operation ended with addr=6 at time=3750
+[apb_driver] Done with STIMULUS apb_trans 24 from generator at time=3750
+[apb_driver] Received  STIMULUS apb_trans 25 from generator at time=3750
+[apb_Generator] Sent STIMULUS apb_trans 25 to driver at time=3750
+[apb_driver] APB write operation started with addr=7 data=366 at time=3770
+[apb_driver] APB write operation ended with addr=7 data=366 at time=3830
+[apb_driver] APB read operation started with addr=7 at time=3830
+APB WRITE addr=0x7 data=0x16e
+[apb_iMonitor] Sent apb_trans 24 to scoreboard at time=3830 
+[Coverage] Coverage=26.367188 
+[apb_oMonitor] Sent apb_trans 24 to scoreboard at time=3890 
+APB READ addr=0x7 data=0x16e
+[apb_Scoreboard] apb_trans 24 received at time=3890
+[apb_Scoreboard] apb_trans 24 Matched 
+[apb_driver] APB read operation ended with addr=7 at time=3910
+[apb_driver] Done with STIMULUS apb_trans 25 from generator at time=3910
+[apb_driver] Received  STIMULUS apb_trans 26 from generator at time=3910
+[apb_Generator] Sent STIMULUS apb_trans 26 to driver at time=3910
+[apb_driver] APB write operation started with addr=9 data=45 at time=3930
+[apb_driver] APB write operation ended with addr=9 data=45 at time=3990
+[apb_driver] APB read operation started with addr=9 at time=3990
+APB WRITE addr=0x9 data=0x2d
+[apb_iMonitor] Sent apb_trans 25 to scoreboard at time=3990 
+[Coverage] Coverage=26.367188 
+[apb_oMonitor] Sent apb_trans 25 to scoreboard at time=4050 
+APB READ addr=0x9 data=0x2d
+[apb_Scoreboard] apb_trans 25 received at time=4050
+[apb_Scoreboard] apb_trans 25 Matched 
+[apb_driver] APB read operation ended with addr=9 at time=4070
+[apb_driver] Done with STIMULUS apb_trans 26 from generator at time=4070
+[apb_driver] Received  STIMULUS apb_trans 27 from generator at time=4070
+[apb_Generator] Sent STIMULUS apb_trans 27 to driver at time=4070
+[apb_driver] APB write operation started with addr=3 data=329 at time=4090
+[apb_driver] APB write operation ended with addr=3 data=329 at time=4150
+[apb_driver] APB read operation started with addr=3 at time=4150
+APB WRITE addr=0x3 data=0x149
+[apb_iMonitor] Sent apb_trans 26 to scoreboard at time=4150 
+[Coverage] Coverage=26.367188 
+[apb_oMonitor] Sent apb_trans 26 to scoreboard at time=4210 
+APB READ addr=0x3 data=0x149
+[apb_Scoreboard] apb_trans 26 received at time=4210
+[apb_Scoreboard] apb_trans 26 Matched 
+[apb_driver] APB read operation ended with addr=3 at time=4230
+[apb_driver] Done with STIMULUS apb_trans 27 from generator at time=4230
+[apb_driver] Received  STIMULUS apb_trans 28 from generator at time=4230
+[apb_Generator] Sent STIMULUS apb_trans 28 to driver at time=4230
+[apb_driver] APB write operation started with addr=7 data=117 at time=4250
+[apb_driver] APB write operation ended with addr=7 data=117 at time=4310
+[apb_driver] APB read operation started with addr=7 at time=4310
+APB WRITE addr=0x7 data=0x75
+[apb_iMonitor] Sent apb_trans 27 to scoreboard at time=4310 
+[Coverage] Coverage=26.367188 
+[apb_oMonitor] Sent apb_trans 27 to scoreboard at time=4370 
+APB READ addr=0x7 data=0x75
+[apb_Scoreboard] apb_trans 27 received at time=4370
+[apb_Scoreboard] apb_trans 27 Matched 
+[apb_driver] APB read operation ended with addr=7 at time=4390
+[apb_driver] Done with STIMULUS apb_trans 28 from generator at time=4390
+[apb_driver] Received  STIMULUS apb_trans 29 from generator at time=4390
+[apb_Generator] Sent STIMULUS apb_trans 29 to driver at time=4390
+[apb_driver] APB write operation started with addr=9 data=227 at time=4410
+[apb_driver] APB write operation ended with addr=9 data=227 at time=4470
+[apb_driver] APB read operation started with addr=9 at time=4470
+APB WRITE addr=0x9 data=0xe3
+[apb_iMonitor] Sent apb_trans 28 to scoreboard at time=4470 
+[Coverage] Coverage=26.367188 
+[apb_oMonitor] Sent apb_trans 28 to scoreboard at time=4530 
+APB READ addr=0x9 data=0xe3
+[apb_Scoreboard] apb_trans 28 received at time=4530
+[apb_Scoreboard] apb_trans 28 Matched 
+[apb_driver] APB read operation ended with addr=9 at time=4550
+[apb_driver] Done with STIMULUS apb_trans 29 from generator at time=4550
+[apb_driver] Received  STIMULUS apb_trans 30 from generator at time=4550
+[apb_Generator] Sent STIMULUS apb_trans 30 to driver at time=4550
+[apb_Generator] run ended at time=4550
+[apb_driver] APB write operation started with addr=7 data=460 at time=4570
+[apb_driver] APB write operation ended with addr=7 data=460 at time=4630
+[apb_driver] APB read operation started with addr=7 at time=4630
+APB WRITE addr=0x7 data=0x1cc
+[apb_iMonitor] Sent apb_trans 29 to scoreboard at time=4630 
+[Coverage] Coverage=26.367188 
+[apb_oMonitor] Sent apb_trans 29 to scoreboard at time=4690 
+APB READ addr=0x7 data=0x1cc
+[apb_Scoreboard] apb_trans 29 received at time=4690
+[apb_Scoreboard] apb_trans 29 Matched 
+[apb_driver] APB read operation ended with addr=7 at time=4710
+[apb_driver] Done with STIMULUS apb_trans 30 from generator at time=4710
+[apb_driver] Received  STIMULUS apb_trans 31 from generator at time=4710
+[apb_driver] APB write operation started with addr=6 data=226 at time=4730
+[apb_driver] APB write operation ended with addr=6 data=226 at time=4790
+[apb_driver] APB read operation started with addr=6 at time=4790
+APB WRITE addr=0x6 data=0xe2
+[apb_iMonitor] Sent apb_trans 30 to scoreboard at time=4790 
+[Coverage] Coverage=26.367188 
+[apb_oMonitor] Sent apb_trans 30 to scoreboard at time=4850 
+APB READ addr=0x6 data=0xe2
+[apb_Scoreboard] apb_trans 30 received at time=4850
+[apb_Scoreboard] apb_trans 30 Matched 
+[apb_driver] APB read operation ended with addr=6 at time=4870
+[apb_driver] Done with STIMULUS apb_trans 31 from generator at time=4870
+
+[apb_environment] ****** Report Started ********** 
+[apb_Generator]  Report: total_apb_transs_generated=30 
+[apb_driver] Report: total_apb_transs_driven=31 
+[apb_iMonitor] Report: total_apb_transs_received=30 
+[apb_oMonitor] Report: total_apb_transs_received=30 
+[apb_Scoreboard] Report: total_apb_transs_received=30 
+[apb_Scoreboard] Report: Matches=30 Mis_Matches=0 
+********* Functional Coverage **********
+[apb_coverage] coverage_score=26.367188 
+**************************************
+
+*****************************************
+***********TEST PASSED ************ 
+*****Functional_coverage=26.367188 *****
+Matches=30 Mis_matches=0
+*********************************
+ 
+[apb_environment] ******** Report ended******** 
+
+[apb_environment] run ended at time=5050
+[Testcase] run ended at time=5050
+[Program Block] simulation finished at time=5050
+$finish at simulation time                 5050
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 5050 ns
