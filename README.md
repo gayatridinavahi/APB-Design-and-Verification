@@ -2,6 +2,7 @@
 
 ## Design
   #### APB Protocol was designed with the signals: PSEL, PREADY, PENABLE, PWRITE, PADDR, PWDATA, PRDATA, PSLVERR.
+  #### APB Slave Verification.
   #### The verification environment was created with a self-checking testbench that prints out the result of whether the test has been passed or not.
   #### The toal no.of packets sent must match the ones received.
 
